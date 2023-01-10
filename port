@@ -1,0 +1,11 @@
+t=2023-01-10T20:08:38+0000 lvl=warn msg="failed to get home directory, using $HOME instead" err="user: Current requires cgo or $USER set in environment" $HOME=/data/data/com.termux/files/home
+t=2023-01-10T20:08:38+0000 lvl=info msg="no configuration paths supplied"
+t=2023-01-10T20:08:38+0000 lvl=info msg="using configuration at default config path" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml
+t=2023-01-10T20:08:38+0000 lvl=info msg="open config file" path=/data/data/com.termux/files/home/.config/ngrok/ngrok.yml err=nil
+t=2023-01-10T20:08:38+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2023-01-10T20:08:39+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-01-10T20:08:39+0000 lvl=info msg="client session established" obj=csess id=29f0a57594d0
+t=2023-01-10T20:08:39+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:9999 url=tcp://0.tcp.in.ngrok.io:13824
+t=2023-01-10T20:08:41+0000 lvl=warn msg="failed to check for update" obj=updater err="Post \"https://update.equinox.io/check\": x509: certificate has expired or is not yet valid: current time 2023-01-10T20:08:41Z is after 2021-09-30T14:01:15Z"
+t=2023-01-10T20:08:42+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2023-01-10T20:08:42+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
